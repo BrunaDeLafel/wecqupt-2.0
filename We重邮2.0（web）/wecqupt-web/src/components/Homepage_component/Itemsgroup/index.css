@@ -1,0 +1,13 @@
+.Itemsgroup {
+    width: 85%;height: 125rpx;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50rpx;
+    padding-right: 50rpx;
+}
+.ItemsgroupItem{
+    border: 3px #888888 dashed;
+    margin-top: 40rpx;
+}

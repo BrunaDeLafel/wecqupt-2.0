@@ -1,0 +1,53 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "name": "We重邮",
+      "source": "pages/Home/index"
+    },
+    {
+      "path": "/userinfo",
+      "name": "个人信息",
+      "source": "pages/User/index"
+    },
+    {
+      "path": "/moreitems",
+      "name": "更多功能",
+      "source": "pages/Home/Moreitems/index"
+    },
+    {
+      "path": "/kebiao",
+      "name": "我的课表",
+      "source": "pages/Kbcx/index"
+    },
+    {
+      "path": "/login",
+      "name": "登陆界面",
+      "source": "pages/Login/index"
+    }
+  ],
+  "tabBar": {
+    "items": [
+      {
+        "path": "/kebiao",
+        "icon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/_tabbar1.png",
+        "activeIcon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/tabbar1.png"
+      },
+      {
+        "path": "/",
+        "icon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/_tabbar2.png",
+        "activeIcon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/tabbar2.png"
+      },
+      {
+        "path": "/userinfo",
+        "icon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/_tabbar3.png",
+        "activeIcon": "https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/tabbar/tabbar3.png"
+      }
+    ]
+  },
+  "historyType": "browser",
+  "hydrate": true,
+  "window": {
+    "title": "Rax App"
+  }
+}

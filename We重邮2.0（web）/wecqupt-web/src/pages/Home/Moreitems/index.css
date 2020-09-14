@@ -1,0 +1,12 @@
+.moreitems{
+    width:100%;
+    margin: 0 auto;
+}
+.itemBlockIcons{
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60rpx;
+}
