@@ -3,6 +3,9 @@ import View from 'rax-view';
 import Text from 'rax-text';
 import request from 'universal-request'
 
+import { cdnurl } from '../../public/utils.js'
+const { cdnimg } = cdnurl;
+
 import './index.css';
 
 import Logo from '../../components/Homepage_component/Logo';
@@ -12,23 +15,23 @@ import Itemsgroup from '../../components/Homepage_component/Itemsgroup';
 // 功能导航的图片
 let iconImg = [
   [
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/kbcx.png', text: '课表查询', path: '/kebiao'},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/kxjs.png', text: '空闲教室',path:''},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/tscx.png', text: '图书查询',path:''},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/xyzx.png', text: '校园资讯',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/kbcx.png`, text: '课表查询', path: '/kebiao'},
+    {uri:`${cdnimg}/wecqupt/shouye/kxjs.png`, text: '空闲教室',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/tscx.png`, text: '图书查询',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/xyzx.png`, text: '校园资讯',path:''},
   ],
   [
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/cjcx.png', text: '成绩查询',path:''},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/ksap.png', text: '考试安排',path:''},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/jscx.png', text: '教室申请',path:''},
-    {uri:'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/more.png', text: '更多功能',path:'/moreitems'},
+    {uri:`${cdnimg}/wecqupt/shouye/cjcx.png`, text: '成绩查询',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/ksap.png`, text: '考试安排',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/jscx.png`, text: '教室申请',path:''},
+    {uri:`${cdnimg}/wecqupt/shouye/more.png`, text: '更多功能',path:'/moreitems'},
   ]
 ]
 // 轮播图图片的url数组
 let scannnerImg = [
-  'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/scanner1.png',
-  'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/scanner1.png',
-  'https://wequpt-1259210999.cos.ap-chongqing.myqcloud.com/wecqupt/shouye/scanner1.png',
+  `${cdnimg}/wecqupt/shouye/scanner1.png`,
+  `${cdnimg}/wecqupt/shouye/scanner1.png`,
+  `${cdnimg}/wecqupt/shouye/scanner1.png`,
 ]
 
 //首页home page的DOM
